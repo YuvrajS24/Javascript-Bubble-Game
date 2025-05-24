@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Gilroy";
+}
+
+
+html,body{
+
+    height:100%;
+    width:100%;
+
+}
+
+#main{
+
+    height:100%;
+    width:100%;
+    background-color:rgb(126,179, 126);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+#box{
+        
+    overflow:hidden;
+    height:80%;
+    width:80%;
+     background-color:white;
+     border-radius:10px;
+
+}
+
+
+#paneltop{
+
+padding:0px 30%;
+height:100px;
+width:100%;
+background-color: rgb(72,104, 72);
+display:flex;
+justify-content:space-between;
+align-items: center;
+
+    
+
+}
+
+
+.elem{
+
+
+ 
+    display:flex;
+    align-items: center;
+    gap:12px;
+   
+
+}
+
+.elem h2{
+
+    color:white;
+    font-weight: 500;
+    
+
+}
+
+.elem .boxx{
+
+background-color: white;
+color:  rgb(18,119, 57) ;
+padding:10px;
+border-radius: 5px;
+font-weight:700;
+    height: 41px;
+    font-size: 27px;
+    
+
+}
+
+
+#panelbottom{
+
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+
+    padding:20px;
+    height:calc(100% - 100px);
+    width:100%;
+    background-color:lightblue;
+
+}
+
+
+.bubble{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(72,104, 72);
+    height: 60px;
+    width:60px;
+    border-radius:50%;
+    color: white;
+}
+
+.bubble:hover{
+cursor:pointer;
+background-color:rgb(50,75,50);
+}
